@@ -1,0 +1,63 @@
+div {
+    width: 50px;
+    height: 50px;
+}
+
+.sub__div{
+    display: flex;
+}
+
+.victory{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 125px;
+}
+.victory__text{
+    color: white;
+    text-align: center;
+}
+.victory__button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.victory__button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.wall{
+    background-color: black;
+}
+
+.blank{
+    background-color: whitesmoke;
+}
+
+.start{
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.finish {
+    background-color: lightgreen;
+}
+
+.error{
+    background-color: red;
+}
+
+.hidden{
+    display: none;
+}
